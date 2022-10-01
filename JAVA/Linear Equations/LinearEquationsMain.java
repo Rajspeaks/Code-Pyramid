@@ -42,3 +42,6 @@ public class LinearEquationsMain
 // Enter Value of n: 5
 // x1: 0.50
 // x2: -0.00
+
+
+// Code by Rajdeep Das
