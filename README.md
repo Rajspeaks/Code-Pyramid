@@ -31,7 +31,7 @@
 <code><a href="https://linkedin.com/in/itsrajdeepdas"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></code>&nbsp;
 
 
-# Contributors:
+## :handshake: List of Contributors
 <a href="https://github.com/Rajspeaks/Code-Pyramid/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Rajspeaks/Code-Pyramid" />
 </a>
