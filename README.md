@@ -12,13 +12,11 @@
 1. Fork this repository.
 2. Choose a suitable folder of any programming language where you want to contribute.
 3. Create a folder with the same name of the program. 
-4. Upload/write the program with proper output in comment. Also mention your name in comment.
-5. Add your name in the <a href="https://github.com/Rajspeaks/Hacktoberfest-2022/blob/main/Contributors.md">contributors.md</a> in the mentioned format.
-6. Compare and create pull request. 
-7. Wait for the review.
-8. If it is found valid, it will be accepted and marged. Or it will be requested to do required updates.
+4. Upload/write the program with proper output in comment.
+5. Compare and create pull request. 
+6. Wait for the review.
+7. If it is found valid, it will be accepted and marged. Or it will be requested to do required updates.
 
-### For more details on Hacktoberfest Participation, <a href="https://hacktoberfest.com/participation/">click here.</a>
 
 <table>
   <tr>
