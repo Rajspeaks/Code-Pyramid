@@ -1,5 +1,7 @@
 # Code Pyramid
 
+Repository consists of codes, written in different programming languages.
+
 ## Rules:
 1. Don't spam with unnecessery codes/files, those will be considered as invalid pull requests and will be labelled as <code>spam</code>.
 2. Follow the below mentioned steps and maintain the flow of this repository.
