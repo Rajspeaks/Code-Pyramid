@@ -38,6 +38,13 @@ Repository consists of codes, written in different programming languages.
   <img src="https://contrib.rocks/image?repo=Rajspeaks/Code-Pyramid" />
 </a>
 
+
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+
+
 Made with [contrib.rocks](https://contrib.rocks).
 
 
