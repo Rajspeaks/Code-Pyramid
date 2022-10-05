@@ -44,10 +44,6 @@ Repository consists of codes, written in different programming languages.
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
-
-Made with [contrib.rocks](https://contrib.rocks).
-
-
 # Happy contribution!!
 
 &copy; Rajdeep Das.
