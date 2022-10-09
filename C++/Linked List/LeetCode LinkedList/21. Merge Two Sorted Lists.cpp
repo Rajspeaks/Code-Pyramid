@@ -1,63 +1,21 @@
 class Solution {
 public:
-    ListNode* mergeTwoLists(ListNode* h1, ListNode* h2) {
+    ListNode *mergeTwoLists(ListNode *l1, ListNode *l2) {
+        ListNode dummy(INT_MIN);
+        ListNode *tail = &dummy;
         
-        ListNode *fh,*ft;
-        if(h1==NULL && h2==NULL)
-        {
-            return h1;
-        }
-        if(h1==NULL)
-        {
-            return h2;
-        }
-        else if(h2==NULL)
-        {
-            return h1;
-        }
-        
-        
-        if(h1->val<h2->val)
-        {
-            fh=h1;
-            ft=h1;
-            h1=h1->next;
-        }
-        else
-        {
-            fh=h2;
-            ft=h2;
-            h2=h2->next;
-        }
-        while(h1!=NULL && h2!=NULL)
-        {
-            if(h1->val<h2->val)
-            {
-                ft->next=h1;
-                h1=h1->next;
-                ft=ft->next;
-                
+        while (l1 && l2) {
+            if (l1->val < l2->val) {
+                tail->next = l1;
+                l1 = l1->next;
+            } else {
+                tail->next = l2;
+                l2 = l2->next;
             }
-            else
-            {
-                ft->next=h2;
-                h2=h2->next;
-                ft=ft->next;
-                
-            }
+            tail = tail->next;
         }
-        
-        if(h2==NULL)
-        {
-            ft->next=h1;
-        }
-        else
-        {
-            ft->next=h2;
-        }
-        
-        return fh;
-        
-        
+
+        tail->next = l1 ? l1 : l2;
+        return dummy.next;
     }
 };
