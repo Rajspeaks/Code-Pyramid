@@ -18,20 +18,20 @@ Node* newNode(int data)
 	return temp;
 }
 
-/* Given a binary tree, print its nodes in inorder*/
-void printInorder(struct Node* node)
+/* Given a binary tree, print its nodes in preorder*/
+void printPreorder(struct Node* node)
 {
 	if (node == NULL)
 		return;
 
-	/* first recur on left child */
-	printInorder(node->left);
-
-	/* then print the data of node */
+	/* first print data of node */
 	cout << node->data << " ";
 
-	/* now recur on right child */
-	printInorder(node->right);
+	/* then recur on left subtree */
+	printPreorder(node->left);
+
+	/* now recur on right subtree */
+	printPreorder(node->right);
 }
 
 /* Driver code*/
@@ -43,11 +43,9 @@ int main()
 	root->left->left = newNode(4);
 	root->left->right = newNode(5);
 
-
 	// Function call
-	cout << "\nInorder traversal of binary tree is \n";
-	printInorder(root);
-
+	cout << "\nPreorder traversal of binary tree is \n";
+	printPreorder(root);
 
 	return 0;
 }
