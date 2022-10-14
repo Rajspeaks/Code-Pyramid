@@ -18,3 +18,6 @@ int main(){
     vowels(str);
     return 0;
 }
+/*
+Input: My name is Ricktho
+Output: Number of vowels is 5
