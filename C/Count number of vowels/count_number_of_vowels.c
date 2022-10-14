@@ -21,3 +21,4 @@ int main(){
 /*
 Input: My name is Ricktho
 Output: Number of vowels is 5
+*/
