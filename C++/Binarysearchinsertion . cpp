@@ -1,0 +1,33 @@
+#include<iostream>
+#include <vector>
+#include<algorithm>
+using namespace std;
+int searchInsert(vector<int> nums, int target) {
+    int l = 0, n = nums.size(), r = n - 1, ans=-1, mid;
+    while(l<r)
+    {
+        mid = l + (r-l)/2;
+        if(nums[mid]==target)
+            return mid;
+        else if(nums[mid]<target)
+        {
+            ans = mid;
+            l = mid+1; 
+        }
+        else
+        {
+            r = mid - 1;
+        }
+    }
+    return ans+l;
+}
+int main(){
+    int target;
+//vector<int>nums = {5,8,9,12};
+//cin>>target;
+cout<<searchInsert({5,8,9,12},7);
+return 0;
+}
+
+
+
